@@ -203,6 +203,12 @@ body {
 #titulo2_desktop{
   display: none;
 }
+.contenedor_categorias{
+  display: none;
+}
+.buscar{
+  display: none;
+}
 
 @media (min-width:768px)  {
   .banner {
@@ -260,6 +266,12 @@ body {
   #titulo2_desktop{
     display: none;
   }
+  .contenedor_categorias{
+    display: none;
+  }
+  .buscar{
+    display: none;
+  }
 }
 
 @media (min-width:950px) {
@@ -313,5 +325,67 @@ body {
     border: 0;
     border-radius: 2%;
     padding: 1%;
+    font-size: 13px;
+  }
+  .row2{
+    margin-top: 3%;
+  }
+  .buscar{
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    padding: 1%;
+    margin: 0 auto;
+    border-radius: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: block;
+  }
+  .buscar a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: "Roboto", sans-serif;
+  }
+  .categorias_logos{
+    display: none;
+  }
+  .verTodas{
+    display: none;
+  }
+  .contenedor_categorias{
+    overflow: hidden;
+    width: 100%;
+    padding-left: 5%;
+    display: block;
+  }
+  .logos{
+    float: left;
+    width: 15%;
+    overflow: hidden;
+    margin-right: 10%;
+  }
+  .logos img{
+    float: left;
+    width: 30%;
+  }
+  .logos h3{
+    float: left;
+    width: 30%;
+  }
+  .contenedorDestacados{
+    float: left;
+    width: 37%;
+    margin-right: 1%;
+    margin-left: 12%;
+  }
+  .contenedorVirtuales{
+    float: left;
+    width: 37%;
+    margin-left: 1%;
+    margin-right: 12%;
+  }
+  .contenedorDestacados_Virtuales{
+    margin-top: 2%;
   }
 }
