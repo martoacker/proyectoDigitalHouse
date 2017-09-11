@@ -1,3 +1,9 @@
+body {
+  background-image: url(../img/back_registro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .form {
   width: 80%;
   margin: 45px auto;
@@ -50,7 +56,6 @@ form button {
   text-decoration: underline;
 }
 
-/* TENGO QUE ACOMODAR ESTO PARA QUE SE ADAPTE BIEN*/
 @media (min-width:650px)  {
   .form {
     width: 60%;
