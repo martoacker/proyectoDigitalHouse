@@ -26,9 +26,35 @@ form input {
   background: #f2f2f2;
   border: 0;
   margin: 0 0 15px;
-  padding: 15px;
+  padding: 7px;
 }
+
+form input.error {
+  border-bottom: solid #f73131 3px;
+}
+
+form p.debajo {
+  font-size: 14px;
+  color: #f73131;
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: serif ;
+}
+
 form button {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #58AEE9;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+form input #btn {
   width: 100%;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;

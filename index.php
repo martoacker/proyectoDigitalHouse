@@ -9,16 +9,9 @@
     <title></title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="registro.html">Registro</a></li>
-          <li><a href="preguntasFrecuentes.html">Ayuda</a></li>
-        </ul>
-      </nav>
-    </header>
+    <?php
+      include('header.php');
+     ?>
 
       <div class="contenedor">
 
@@ -441,10 +434,10 @@
       <footer>
         <nav>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="registro.html">Registro</a></li>
-            <li><a href="preguntasFrecuentes.html">Ayuda</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="login.php">Login</a></li>
+            <li><a href="registro.php">Registro</a></li>
+            <li><a href="preguntasFrecuentes.php">Ayuda</a></li>
           </ul>
         </nav>
       </footer>

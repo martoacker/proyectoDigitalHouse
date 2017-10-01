@@ -10,19 +10,12 @@
     <title></title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="registro.html">Registro</a></li>
-          <li><a href="preguntasFrecuentes.html">Ayuda</a></li>
-        </ul>
-      </nav>
-    </header>
+    <?php
+      include('header.php');
+     ?>
 
     <div class="banner">
-      <h2 id="titulo1">En qué podemos ayudarte?</h2>
+      <h2 id="titulo1">¿En qué podemos ayudarte?</h2>
     </div>
 
     <div class="contenedor_preguntas">
